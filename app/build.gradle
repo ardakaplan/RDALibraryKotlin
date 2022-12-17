@@ -52,6 +52,7 @@ dependencies {
 
     //RDA LIBRARY
     implementation project(':module_rdalibrary')
+//    implementation 'com.github.ardakaplan:RDALibraryKotlin:development-SNAPSHOT'
 
     //HILT
     api("com.google.dagger:hilt-android:2.44")
