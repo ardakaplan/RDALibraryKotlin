@@ -1,13 +1,13 @@
-task copyReleaseApk(type: Copy) {
-
-    from 'build/outputs/aar', 'build/libs'
-
-    into 'C:/Users/ardakaplan/Desktop/Development/AARS'
-
-    include '*debug.aar', '*sources.jar'
-}
-
-afterEvaluate {
-
-    assembleDebug.finalizedBy(copyReleaseApk)
-}
+//task copyReleaseApk(type: Copy) {
+//
+//    from 'build/outputs/aar', 'build/libs'
+//
+//    into 'C:/Users/ardakaplan/Desktop/Development/AARS'
+//
+//    include '*debug.aar', '*sources.jar'
+//}
+//
+//afterEvaluate {
+//
+//    assembleDebug.finalizedBy(copyReleaseApk)
+//}
