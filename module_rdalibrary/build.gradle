@@ -5,6 +5,8 @@ plugins {
     id 'kotlin-kapt'
 }
 
+apply from: '../aar_deployment.gradle'
+
 android {
 
     compileSdk 33
@@ -13,6 +15,10 @@ android {
 
         minSdk 24
         targetSdk 33
+
+        versionName "0.0.0.1"
+
+        setProperty("archivesBaseName", "RDALibraryKotlin_" + versionName)
     }
 
     buildTypes {

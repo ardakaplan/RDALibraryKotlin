@@ -52,7 +52,7 @@ dependencies {
 
     //RDA LIBRARY
 //    implementation project(':module_rdalibrary')
-    implementation 'com.github.ardakaplan:RDALibraryKotlin:test2-SNAPSHOT'
+    implementation 'com.github.ardakaplan:RDALibraryKotlin:test3-SNAPSHOT'
 
 
 
